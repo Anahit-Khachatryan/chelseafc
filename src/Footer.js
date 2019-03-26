@@ -53,7 +53,7 @@ const menu = [{
 
   const Footer=()=>(
       <div className="footer">
-      <div className="footer__sponsors">
+      <div className="container">
       <ul class='nav'>
       {
         menu.map(({key,value, href}) => <li key ={key}><a href = {href}><img src={value}/></a></li>)
@@ -71,7 +71,7 @@ const menu = [{
     </ul>
     </div>
      <div className='copyRight'>
- {new Date().getFullYear()} Copyright: <a href="https://www.chelseafc.com/en">chelseafc.com </a> <span>Chelsea FC. All rights reserved. No part of this site may be reproduced without our written permission.</span>
+     &copy; {new Date().getFullYear()}  Copyright: <a href="https://www.chelseafc.com/en">chelseafc.com </a> <span>Chelsea FC. All rights reserved. No part of this site may be reproduced without our written permission.</span>
      </div>
      </div>
   );

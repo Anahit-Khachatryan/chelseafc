@@ -13,8 +13,7 @@ import './css/Containercss.css';
 const Container  = function () {
     return (
         <div className="container">
-        <div className="d-flex align-item-center">
-        <ul className = 'navBar'>
+        <ul className = 'navBar align-item-center'>
             {menuItems.map(function(menuItem, i) {
                 if (menuItem.subMenus != undefined) {
                      return (
@@ -35,7 +34,6 @@ const Container  = function () {
                 }
             })}
             </ul>
-            </div>
         </div>
     );
 }

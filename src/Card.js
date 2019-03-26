@@ -10,7 +10,7 @@ const Card = ({property}) => {
             <div className="details">
                 {/* <span className="index">{index+1}</span> */}
                
-                  <h2> {number} {name}</h2>
+                  <h3> {number} {name}</h3>
                    <p> {quote}</p>
                 
                 <ul className="features">
