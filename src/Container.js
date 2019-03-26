@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import rgbmar18 from './images/rgbmar18.webp'
 import './css/Containercss.css';
+
+// import rgbmar18 from './images/rgbmar18.webp'
 
  export const menuItems = [
     {name: 'About Chelsea', subMenus: [{name: 'About the Club', href:"https://www.chelseafc.com/en/about-chelsea/about-the-club"}, {name: 'About The Academy', href:"https://www.chelseafc.com/en/about-chelsea/about-the-academy"}, {name: 'History', href: "https://www.chelseafc.com/en/about-chelsea/history"}]},
@@ -13,7 +14,6 @@ const Container  = function () {
     return (
         <div className="container">
         <div className="d-flex align-item-center">
-           <a className="logo" href="#"><img src={rgbmar18} /></a>
         <ul className = 'navBar'>
             {menuItems.map(function(menuItem, i) {
                 if (menuItem.subMenus != undefined) {
