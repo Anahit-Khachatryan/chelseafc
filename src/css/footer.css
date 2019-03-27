@@ -1,0 +1,36 @@
+.footer{
+    border-top:1px solid rgba(0,0,0,.2);
+    background-color: #ebe6df;
+}
+.footer ul {
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: auto;
+    -webkit-box-pack: center;
+    justify-content: center;
+    /* flex-wrap: wrap;
+    flex-basis:33.33333%;
+    max-width: 10rem; */
+    
+}
+
+.copyRight {
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 7px 0;
+    line-height: 1.71;
+    letter-spacing: .3px;
+    font-size: 14px;
+}
+.copyRight a {
+    color: #fff;
+}
+.copyRight a:hover,
+.copyRight a:focus {
+    opacity: .6;
+}

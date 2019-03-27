@@ -1,0 +1,61 @@
+img{
+    display:block;
+}
+.details {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.74);
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    color: #fff;
+    padding: 50px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 30px 80px;
+    font-size: 17px;
+}
+.details p {
+margin-bottom: 10px;
+}
+.features {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.features li {
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+
+.features li span {
+  font-weight: 400;
+}
+.card {
+    position: relative;
+}
+h2{
+    margin-bottom:10px;
+}
+.sliderBotton button {
+    width: 40px;
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+    border: 0;
+    top: 0;
+    bottom: 0; 
+    margin: auto;
+    cursor: pointer;
+}
+.sliderBotton .leftBtn{
+left: 0;
+}
+.sliderBotton .rightBtn{
+    right: 0;
+    }
+.card-container{
+position: relative;
+}

@@ -4,6 +4,7 @@ import Home from './Home';
 import Team from './Team';
 import rgbmar18 from './images/rgbmar18.webp';
 import './css/Containercss.css';
+import Statistic from "./Statistic";
 
 // import './css/general.css';
 // import './css/App.css';
@@ -25,6 +26,9 @@ function AppRouter() {
             <li>
               <Link to="/second/">Team</Link>
             </li>
+            <li>
+              <Link to="/third/">Statistic</Link>
+            </li>
             </ul>
         {/* </nav> */}
 </div>
@@ -32,6 +36,8 @@ function AppRouter() {
   
         <Route path="/" exact component={Home} />
         <Route path="/second/" component={Team} />
+        <Route path="/third/" component={Statistic} />
+
       {/* </div> */}
     </Router>
   );

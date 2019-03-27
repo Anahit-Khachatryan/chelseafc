@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -ms-transition: 0.4s;
+}
+.App {
+    text-align: unset;
+}
+
+img {
+    max-width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+.text-center {
+    text-align: center;
+}
+h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+
+}
+a,
+a:hover ,
+a:focus,
+button:focus {
+    text-decoration: none;
+    outline: 0;
+}
+.container {
+    padding: 0 15px;
+    position: relative;
+}
+
+.d-flex {
+    display: -webkit-flex;
+    display: flex;
+
+}
+.align-item-center {
+    -webkit-align-items: center;
+    align-items: center;
+}

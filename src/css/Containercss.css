@@ -1,0 +1,108 @@
+
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 37px;
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.4);
+}
+header li a:hover,
+header li a:focus {
+ opacity: 0.6;
+}
+.headerMiddle {
+    position: relative;
+    padding: 5px 0;
+    background: #fff;
+}
+header .navBar li ul {
+   display: none;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 100%;
+   z-index: 1;
+}
+header .navBar li ul li{
+    text-align: left;
+    padding: 5px 0;
+}
+ header ul li:hover ul {
+    display: block;
+ } 
+ header .navBar li ul {
+    background: #fff;
+    padding: 15px;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
+   -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
+   box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
+ }
+
+header .navBar {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    margin-left: auto;
+    margin-left: 100px;
+    width: 100%;
+}
+header .navBar li a {
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px 5px;
+    display: block;
+
+}
+header .navBar li {
+    -webkit-flex: 1;  
+  -ms-flex: 1;  
+  flex: 1;
+ 
+}
+header .navBar >li {
+    text-align: center;
+} 
+header .navBar  ul li a {
+    padding: 5px 0;
+} 
+header .navBar >li >a{
+    text-transform: uppercase;
+} 
+
+.topHeader {
+    background:#001489;
+    font-size: 14px;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.topHeader ul {
+   float: right;
+}
+.topHeader ul  li {
+    float: left;
+ }
+.topHeader ul li a {
+  color: #fff;
+  padding: 0 15px;
+}
+.topHeader ul li a:hover,
+.topHeader ul li a:focus {
+    opacity: 0.6;
+}
+.topHeader .logo {
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+}
+

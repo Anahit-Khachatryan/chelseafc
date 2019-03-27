@@ -1,0 +1,19 @@
+.grid-c {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 90px;
+  }
+  .grid-e {
+    padding: 10px 10px 10px 10px;
+  }
+  .cContent {
+    text-align: center;
+  }
+  .biography {
+    color: blue;
+    text-align: center;
+    font-size: larger;
+  }
+  
+  
+  
