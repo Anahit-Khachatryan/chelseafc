@@ -1,6 +1,5 @@
 const express = require("express");
-const { data1 , data2, data3 } = require("./data");
-
+const { data1 , data2, data3, data4 } = require("./data");
 const app = express();
 
 app.use((req, res, next) => {
@@ -18,6 +17,9 @@ app.get('/getData2', (req, res) => {
 });
 app.get('/getData3', (req, res) => {
     res.send(data3)
+});
+app.get('/getData4', (req, res) => {
+    res.send(data4)
 });
 
 app.listen(8010);
